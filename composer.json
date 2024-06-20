@@ -1,0 +1,22 @@
+{
+    "name": "nicolasblancom/magento2-theme-starter",
+    "description": "A Luma child theme for developers.",
+    "require": {
+        "php": "^8.1",
+        "magento/framework": "^103",
+        "magento/theme-frontend-luma": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "type": "magento2-theme",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
